@@ -1,0 +1,73 @@
+@mixin button($bg: $color-primary, $color: $color-white, $radius: $radius-sm) {
+  background-color: $bg;
+  color: $color;
+  padding: $spacing-sm $spacing-md;
+  border-radius: $radius;
+  border: none;
+  font-weight: 500;
+  font-size: $font-size-base;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+  &:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+  }
+}
+@mixin container($width: 1140px, $gutter: 15px) {
+  max-width: $width;
+  margin: 0 auto;
+  padding: 0 $gutter;
+}
+@mixin section($bg: $color-white, $padding-y: $spacing-xl) {
+  background-color: $bg;
+  padding: $padding-y 0;
+}
+@mixin heading($size: $font-size-xl, $color: $color-secondary) {
+  font-size: $size;
+  font-weight: 700;
+  color: $color;
+  font-family: $font-primary;
+  line-height: 1.3;
+}
+@mixin card($bg: $color-white, $shadow: $shadow-md, $radius: $radius-md) {
+  background-color: $bg;
+  box-shadow: $shadow;
+  border-radius: $radius;
+  padding: $spacing-md;
+  transition: 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero {
+  @include section($color-bg-light);
+
+  .container {
+    @include container();
+  }
+
+  h1 {
+    @include heading($font-size-xxl);
+  }
+
+  p {
+    @include paragraph();
+  }
+
+  .cta-button {
+    @include button();
+  }
+}
