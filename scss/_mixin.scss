@@ -52,22 +52,4 @@
   justify-content: space-between;
   align-items: center;
 }
-.hero {
-  @include section($color-bg-light);
 
-  .container {
-    @include container();
-  }
-
-  h1 {
-    @include heading($font-size-xxl);
-  }
-
-  p {
-    @include paragraph();
-  }
-
-  .cta-button {
-    @include button();
-  }
-}

@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem ;
+        div{
+            display: flex;
+        }
+        .nav_phone{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
