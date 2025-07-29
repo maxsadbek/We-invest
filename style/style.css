@@ -199,6 +199,11 @@ button {
   flex-wrap: wrap;
   gap: 3rem;
 }
+.Trusted_parent .Trusted_flex_box .maps {
+  width: 90px;
+  margin-top: 1rem;
+  margin-left: 0;
+}
 .Trusted_parent .Trusted_flex_box .flex_map {
   margin-left: -11rem;
 }
