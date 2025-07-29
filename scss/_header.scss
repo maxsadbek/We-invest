@@ -33,9 +33,10 @@ header{
             font-weight: 700;
             font-size: 20px;
              transition: all 0.3s ease;
-            &:hover{
-                color: rgb(155, 114, 194);
-            }
+             background: linear-gradient(90deg,rgb(164, 108, 216),rgb(145, 110, 180));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                color: #fff;
             }
         }
     }
