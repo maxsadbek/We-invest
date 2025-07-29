@@ -43,7 +43,7 @@
       border: 1px solid #f1ae0e;
       color: #fff;
       transition: all 0.3s ease;
-      &:hover{
+      &:hover {
         background-color: #d4980c;
       }
     }
@@ -123,44 +123,47 @@
     }
   }
 }
-button{
+button {
   cursor: pointer;
 }
 
-.Trusted_parent{
+.Trusted_parent {
   display: flex;
   align-items: center;
   margin-top: 9rem;
-  .Trusted_flex_box{
+  .Trusted_flex_box {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 2rem;
-    .map{
+    gap: 3rem;
+    .flex_map{
+      margin-left: -11rem;
+    }
+    .map {
       margin-top: 2rem;
-      i{
-      padding: 27px 30px;
+      i {
+        padding: 27px 30px;
       }
-      h3{
+      h3 {
         margin-top: 2rem;
       }
     }
   }
 
-  .Trusted_box{
-    h1{
+  .Trusted_box {
+    h1 {
       font-size: 45px;
       width: 70%;
       color: #fff;
     }
-    p{
+    p {
       font-size: 18px;
       width: 70%;
       color: #fff;
       margin-top: 1rem;
       margin-bottom: 3rem;
     }
-    button{
+    button {
       background-color: #f1ae0e;
       border: none;
       padding: 15px 25px;
@@ -169,14 +172,14 @@ button{
       font-weight: 600;
       border-radius: 3px;
 
-      &:hover{
+      &:hover {
         background-color: #d4980c;
       }
     }
   }
-  .div_trusted{
-    width: 230px;
-    i{
+  .div_trusted {
+    width: 220px;
+    i {
       padding: 27px 60px;
       background-color: rgb(85, 77, 196);
       text-align: center;
@@ -187,17 +190,17 @@ button{
       color: #fff;
       transition: 0.3s all ease-in-out;
 
-       &:hover{
+      &:hover {
         background-color: rgb(153, 0, 255);
       }
     }
-    h3{
+    h3 {
       margin-top: 1rem;
       font-size: 23px;
       color: #fff;
       margin-bottom: 1rem;
     }
-    p{
+    p {
       line-height: 1.4;
       color: #fff;
       font-size: 16px;
@@ -205,10 +208,10 @@ button{
   }
 }
 
-.text_section{
+.text_section {
   text-align: center;
   margin-top: 5rem;
-  h1{
+  h1 {
     margin-top: 3rem;
     font-size: 35px;
     font-weight: 900;
@@ -217,14 +220,14 @@ button{
     color: #fff;
   }
 
-  h3{
+  h3 {
     margin-top: 2rem;
     font-size: 20px;
     color: #fff;
     margin-bottom: 2rem;
   }
 
-  .text_img img{
+  .text_img img {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -232,3 +235,156 @@ button{
   }
 }
 
+.text2 {
+  margin-top: 5rem;
+  color: #fff;
+  h1 {
+    font-size: 50px;
+    width: 60%;
+    font-weight: 800;
+  }
+}
+
+.card_section {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  .card {
+    width: 380px;
+    height: auto;
+    border: 2px solid rgb(153, 0, 255);
+    padding: 1.4rem;
+    border-radius: 25px;
+      background: linear-gradient(45deg,#2b2933,#2b2933, #2b2933, #2b2933, rgba(255, 255, 255, 0.164));
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      -webkit-box-shadow: 0px 0px 32px 2px rgba(124, 69, 150, 0.69);
+      -moz-box-shadow: 0px 0px 32px 2px rgba(124, 69, 150, 0.69);
+      box-shadow: 0px 0px 32px 2px rgba(124, 69, 150, 0.69);
+      transform: scale(1.002) translateY(-0.4rem);
+    }
+    h3 {
+      font-size: 25px;
+      font-weight: 400;
+      color: #fff;
+    }
+    h2 {
+      margin-top: 1rem;
+      font-size: 27px;
+      margin-bottom: 2rem;
+      color: #fff;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #fff;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 45px;
+      color: #fff;
+      font-weight: 800;
+      margin-bottom: 2rem;
+    }
+    button {
+      padding: 12px 35px;
+      font-size: 18px;
+      background-color: #f1ae0e;
+      border: none;
+      color: #fff;
+
+      &:hover {
+        background-color: #d4980c;
+      }
+    }
+  }
+}
+
+
+ h2 {
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    p.sub {
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    .faq {
+      margin-top: 4rem;
+      max-width: 100%;
+      margin: 0 auto;
+      h2{
+        font-size: 40px;
+        color: #fff;
+        margin-top: 7rem;
+        margin-bottom: 1rem;
+      }
+      p{
+        font-size: 22px;
+      }
+    }
+
+    .faq-item {
+      background: transparent;
+      padding: 20px 0;
+    }
+
+    .faq-question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 600;
+      color: #ffd700;
+      transition: 0.7s;
+      span{
+        font-size: 22px;
+      }
+    }
+
+    .faq-question:hover {
+      color: #fff;
+    }
+
+    .faq-icon {
+      background: linear-gradient(45deg, #a500ff, #6a00ff);
+      color: white;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      transition: transform 0.3s;
+    }
+
+    .faq-answer {
+      display: none;
+      margin-top: 10px;
+      color: #ccc;
+      line-height: 1.5;
+      font-size: 15px;
+    }
+
+    .faq-answer{
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg); /* "+" dan "x" ga */
+    }

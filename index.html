@@ -18,7 +18,7 @@
     integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- favicon -->
-   <link rel="shortcut icon" href="./img/png/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./img/png/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -118,16 +118,16 @@
           </div>
           <div class="div_trusted ">
             <i class="fa-regular fa-user"></i>
-            <h3>99.99% uptime</h3>
+            <h3>600M+ Users</h3>
             <p>Sample text. Click to select the Text Element.</p>
           </div>
         </div>
-        <div class="div_trusted map">
+        <div class="div_trusted map ">
           <i class="ri-route-line"></i>
           <h3>100+ countries</h3>
           <p>Sample text. Click to select the Text Element.</p>
         </div>
-        <div class="div_trusted map">
+        <div class="div_trusted map flex_map">
           <i class="ri-hand"></i>
           <h3>5+ Million</h3>
           <p>Sample text. Click to select the Text Element.</p>
@@ -135,20 +135,107 @@
       </div>
     </section>
     <div class="container text_section">
-      <img src="./img/png/download (1).png"
-        alt="">
+      <img src="./img/png/download (1).png" alt="">
       <h1>We are a team of tourist specialists passionate about exceeding all expectations with all your travel needs. A
         lacus vestibulum sed arcu non. Dolor magna eget est lorem ipsum dolor sit amet consectetur.</h1>
-        <h3>Nick Perry</h3>
-        <div class="text_img">
-          <img src="./img/png/attractive-mixed-race-male-with-positive-smile-shows-white-teeth-keeps-hands-stomach-being-high-spirit-wears-white-shirt-rejoices-positive-moments-life-people-emotions-concept.jpg" alt="">
-        </div>
+      <h3>Nick Perry</h3>
+      <div class="text_img">
+        <img
+          src="./img/png/attractive-mixed-race-male-with-positive-smile-shows-white-teeth-keeps-hands-stomach-being-high-spirit-wears-white-shirt-rejoices-positive-moments-life-people-emotions-concept.jpg"
+          alt="">
+      </div>
     </div>
+    <div class="text2 container">
+      <h1>Designed for business teams like yours</h1>
+    </div>
+    <section class="card_section container">
+      <div class="card">
+        <h3>#Course</h3>
+        <h2>UX/UI design</h2>
+        <p>Acquire mastery in leading platforms and deep understanding so you can adapt to new ones.</p>
+
+        <h1>$ <span>250</span></h1>
+        <button>read more</button>
+      </div>
+      <div class="card">
+        <h3>#Course</h3>
+        <h2>UX/UI design</h2>
+        <p>Acquire mastery in leading platforms and deep understanding so you can adapt to new ones.</p>
+
+        <h1>$ <span>250</span></h1>
+        <button>read more</button>
+      </div>
+      <div class="card">
+        <h3>#Course</h3>
+        <h2>UX/UI design</h2>
+        <p>Acquire mastery in leading platforms and deep understanding so you can adapt to new ones.</p>
+
+        <h1>$ <span>250</span></h1>
+        <button>read more</button>
+      </div>
+    </section>
+    <section class="container">
+
+      <div class="faq container">
+        <h2>Facts & Questions</h2>
+        <p class="sub">Sample text. Click to open or close the answers.</p>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Do you provide support?</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">
+            Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse
+            rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla
+            sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis
+            sit amet. </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>What types of files I will get?</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">
+            Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse
+            rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla
+            sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis
+            sit amet.
+
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How to get future updates?</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">
+            Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse
+            rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla
+            sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis
+            sit amet.
+
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <script>
+    const items = document.querySelectorAll('.faq-item');
+
+    items.forEach(item => {
+      const question = item.querySelector('.faq-question');
+      question.addEventListener('click', () => {
+        item.classList.toggle('active');
+      });
+    });
+  </script>
 </body>
 
 </html>
