@@ -196,6 +196,15 @@ button {
   flex-wrap: wrap;
   gap: 2rem;
 }
+.Trusted_parent .Trusted_flex_box .map {
+  margin-top: 2rem;
+}
+.Trusted_parent .Trusted_flex_box .map i {
+  padding: 27px 30px;
+}
+.Trusted_parent .Trusted_flex_box .map h3 {
+  margin-top: 2rem;
+}
 .Trusted_parent .Trusted_box h1 {
   font-size: 45px;
   width: 70%;

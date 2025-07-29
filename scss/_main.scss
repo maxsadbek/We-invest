@@ -136,6 +136,15 @@ button{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2rem;
+    .map{
+      margin-top: 2rem;
+      i{
+      padding: 27px 30px;
+      }
+      h3{
+        margin-top: 2rem;
+      }
+    }
   }
 
   .Trusted_box{
