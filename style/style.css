@@ -480,4 +480,15 @@ p.sub {
   width: 40%;
 }
 
+footer {
+  margin-top: 7rem;
+  background-color: #222;
+  padding: 5rem;
+  text-align: center;
+  color: #fff;
+}
+footer div h1 {
+  font-size: 25px;
+}
+
 /*# sourceMappingURL=style.css.map */
