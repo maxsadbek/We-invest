@@ -437,4 +437,47 @@ p.sub {
   transform: rotate(45deg); /* "+" dan "x" ga */
 }
 
+.contact {
+  display: flex;
+  align-items: center;
+  margin-top: 15rem;
+}
+.contact .contact_box h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.contact .contact_box h2 {
+  font-size: 22px;
+  width: 80%;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+.contact .contact_box h3 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 1rem;
+}
+.contact .contact_box h3 a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #f1ae0e;
+}
+.contact .contact_box p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 3rem;
+}
+.contact .contact_box p a {
+  color: #6a00ff;
+  text-decoration: nonead;
+}
+.contact img {
+  width: 40%;
+}
+
 /*# sourceMappingURL=style.css.map */
